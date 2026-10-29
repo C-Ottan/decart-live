@@ -18,8 +18,15 @@ Stream live video from your webcam over WebRTC, apply real-time AI transformatio
 
 ### Quick Start (Clone & Run)
 
-Open **PowerShell** or **Command Prompt** and run:
+#### Option A: One-Click Setup & Build (Automated)
+```powershell
+git clone https://github.com/C-Ottan/decart-live.git
+cd decart-live
+.\setup_and_build.bat
+```
+This automatically sets up `venv`, installs all requirements, builds `DecartLivePro.exe`, and copies it to your Desktop.
 
+#### Option B: Manual Setup
 ```powershell
 # 1. Clone repository
 git clone https://github.com/C-Ottan/decart-live.git
