@@ -1,0 +1,43 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Build & Dist Outputs
+build/
+dist/
+*.spec
+*.egg-info/
+*.egg
+*.zip
+
+# Database & Runtime State
+*.db
+*.sqlite3
+server/*.db
+server/tunnel_url.txt
+server/github_token.txt
+tunnel_url.txt
+server_url.txt
+config.json
+
+# IDE & OS Files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+cloudflared.exe
+
+# Temporary / Scratch
+scratch/
+.agent_chat_backup/
+CHAT_HISTORY_BACKUP.md
+upload_*.json
+server/
+Start_*.bat
